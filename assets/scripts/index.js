@@ -36,8 +36,8 @@ const display = () => {
 
   // loop through the array containing binary and push the secret message to the message array
 
-  for (let i = 0; i < reverseArrBin.length ; i++) {
-    if (i < secretMessages.length &&reverseArrBin[i] === '1' ) {
+  for (let i = 0; i < reverseArrBin.length; i++) {
+    if (i < secretMessages.length && reverseArrBin[i] === '1') {
       message.push(secretMessages[i].message)
     }
   }
